@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 39246fbea530bb245956ba2667c13b69
+guid: fed1da7ef43e74e4f9eded179615b756
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -140,13 +140,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: players_0
+      name: torch_sprite_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 300
-        height: 300
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,20 +154,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d60a265af8fd2445a9f8c88276bea21
-      internalID: -478377919
+      spriteID: 91638f2bd9e92cd4eb110c96f9206a7b
+      internalID: 1523736721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: players_1
+      name: torch_sprite_1
       rect:
         serializedVersion: 2
-        x: 300
+        x: 100
         y: 0
-        width: 300
-        height: 300
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,50 +175,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc9141290f1090145aeae5a65aa3fec3
-      internalID: 1666134895
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: players_2
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 0
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: caa33688061e7bf4bb7c1300b1e98951
-      internalID: 1903608112
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: players_3
-      rect:
-        serializedVersion: 2
-        x: 900
-        y: 0
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af56602b7e95e3f44920c770deabf464
-      internalID: 1278053356
+      spriteID: 5d97a34c870b91547b14a74f96eb2bef
+      internalID: -223750701
       vertices: []
       indices: 
       edges: []
@@ -234,10 +192,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      players_0: -478377919
-      players_3: 1278053356
-      players_2: 1903608112
-      players_1: 1666134895
+      torch_sprite_1: -223750701
+      torch_sprite_0: 1523736721
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
